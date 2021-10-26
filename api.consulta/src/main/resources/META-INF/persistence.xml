@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="py.gov.ips_api.consulta_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>py.gov.ips.entities.Categorias_1</class>
+    <class>py.gov.ips.entities.Marcas</class>
+    <class>py.gov.ips.entities.Usuarios</class>
+    <class>py.gov.ips.entities.Clientes</class>
+    <class>py.gov.ips.entities.Unidadmedida</class>
+    <class>py.gov.ips.entities.Proveedores</class>
+    <class>py.gov.ips.entities.Privilegios</class>
+    <class>py.gov.ips.entities.TamanoDetalle</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://pos.cshm7qysnq4v.sa-east-1.rds.amazonaws.com:3306/novapos?characterEncoding=latin1"/>
+      <property name="javax.persistence.jdbc.user" value="admin"/>
+      <property name="javax.persistence.jdbc.driver" value="org.gjt.mm.mysql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Alori_2021"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

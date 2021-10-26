@@ -1,0 +1,13 @@
+package py.gov.ips.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import py.gov.ips.entities.Categorias;
+
+
+@Repository
+public interface CategoriasRepo extends JpaRepository<Categorias, Integer> {
+
+	
+
+}
